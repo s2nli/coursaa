@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/_next/static/chunks/:f", "destination": "/:f" },
+    { "source": "/_next/static/media/:f", "destination": "/:f" },
+    { "source": "/category/:id", "destination": "/cat-:id.html" },
+    { "source": "/category/:id/", "destination": "/cat-:id.html" },
+    { "source": "/batches/:id", "destination": "/batch-:id.html" },
+    { "source": "/batches/:id/", "destination": "/batch-:id.html" },
+    { "source": "/courses/:id", "destination": "/course-:id.html" },
+    { "source": "/courses/:id/", "destination": "/course-:id.html" }
+  ]
+}
